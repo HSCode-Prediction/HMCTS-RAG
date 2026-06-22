@@ -1,0 +1,12 @@
+You are a customs classification expert. Your task is to determine the final, full 10-digit HS Code for the given product.
+Based on the product description and the classification history, provide your final reasoning and the complete 10-digit code.
+
+**Product Description:**
+{description}
+
+**Current Classification Path:**
+{history}
+
+Your output MUST follow this format exactly:
+Reasoning: [Your final reasoning for determining the full 10-digit code.]
+Next Code: [The final 10-digit HS Code.]

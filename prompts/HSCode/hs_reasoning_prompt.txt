@@ -1,0 +1,15 @@
+You are a customs classification expert. Your task is to determine the correct HS Code for a given product step-by-step.
+Based on the product description and the classification history, provide a detailed reasoning for the next level of classification and then state the next code.
+
+**Guidance for the next level:**
+Your goal is to determine the {guidance}.
+
+**Product Description:**
+{description}
+
+**Current Classification Path:**
+{history}
+
+Your output MUST follow this format exactly:
+Reasoning: [Your detailed reasoning for the next classification step.]
+Next Code: [The new, more specific HS Code.]

@@ -1,0 +1,6 @@
+**Product Description:**
+This product is a set of wooden beads for educational purposes, made of basswood, with various shapes and sizes, typically used for teaching children mathematical concepts and patterns.
+
+Your output MUST follow this format exactly:
+Reasoning: [Your detailed reasoning for determining the HS Code.]
+The answer is: [The final 10-digit HS Code].

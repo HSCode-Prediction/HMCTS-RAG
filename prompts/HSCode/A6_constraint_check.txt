@@ -1,0 +1,29 @@
+A6：你是一位海关审计员。请对商品归类进行严格的【分层级校验】。
+
+**商品信息**
+- 描述：{product_desc}
+
+**待校验编码**
+- 目标编码：{final_code}
+
+**参考资料**
+{context}
+
+**校验任务**
+请依次判断（Yes/No）：
+1. 第 {code_2} 章：商品是否属于该章？
+2. 品目 {code_4}：商品是否符合该品目描述？
+3. 子目 {code_6}：商品是否符合该子目特征？
+4. 全码 {final_code}：这是最佳归类吗？
+
+**输出要求**
+必须仅输出标准 JSON 格式，不要包含Markdown标记。
+Key必须严格使用：check_chapter, check_heading, check_subheading, check_full。
+格式范例：
+{{
+  "check_chapter": true,
+  "check_heading": true,
+  "check_subheading": false,
+  "check_full": false,
+  "reason": "..."
+}}

@@ -1,0 +1,8 @@
+{
+    "prompt_template": "You are a customs classification expert. Your task is to determine the correct HS Code for a given product step-by-step.\nBased on the product description and the classification history, provide a detailed reasoning for the classification and then state the final 10-digit HS Code.\n\n**Product Description:**\n{instruction}\n\nYour output MUST follow this format exactly:\nReasoning: [Your detailed reasoning for determining the HS Code.]\nThe answer is: [The final 10-digit HS Code].",
+    "stop_tokens": [
+        "</s>",
+        "\n\n\n"
+    ],
+    "answer_marker": "answer is"
+}
